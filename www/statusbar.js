@@ -67,6 +67,12 @@ var StatusBar = {
         exec(null, null, 'StatusBar', 'styleBlackOpaque', []);
     },
 
+    styleDarkContent: function () {
+        // Dark text ( to be used on a light background )
+        exec(null, null, 'StatusBar', 'styleDarkContent', []);
+    },
+
+
     backgroundColorByName: function (colorname) {
         return StatusBar.backgroundColorByHexString(namedColors[colorname]);
     },

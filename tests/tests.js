@@ -56,6 +56,9 @@ exports.defineAutoTests = function () {
             expect(window.StatusBar.styleBlackOpaque).toBeDefined();
             expect(typeof window.StatusBar.styleBlackOpaque).toBe('function');
 
+            expect(window.StatusBar.styleDarkContent).toBeDefined();
+            expect(typeof window.StatusBar.styleDarkContent).toBe('function');
+
             expect(window.StatusBar.overlaysWebView).toBeDefined();
             expect(typeof window.StatusBar.overlaysWebView).toBe('function');
         });

@@ -90,6 +90,11 @@ module.exports = {
         return module.exports.styleLightContent();
     },
 
+    styleDarkContent: function () {
+        // #FF000000 ? Apple says to use lightContent instead
+        return module.exports.styleDarkContent();
+    },
+
     backgroundColorByHexString: function (win, fail, args) {
         var rgb = hexToRgb(args[0]);
         if (isSupported()) {
