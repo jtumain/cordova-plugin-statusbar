@@ -57,7 +57,7 @@ Preferences
 
         <preference name="StatusBarBackgroundColor" value="#000000" />
 
-- __StatusBarStyle__ (status bar style, defaults to lightcontent). Set the status bar style (e.g. text color). Available options: `default`, `lightcontent`. `blacktranslucent` and `blackopaque` are also available, but __deprecated__, will be removed in next major release, use `lightcontent` instead.
+- __StatusBarStyle__ (status bar style, defaults to lightcontent). Set the status bar style (e.g. text color). Available options: `default`, `lightcontent`. `blacktranslucent`, `darkcontent` and `blackopaque` are also available, but __deprecated__, will be removed in next major release, use `lightcontent` instead.
 
         <preference name="StatusBarStyle" value="lightcontent" />
 
