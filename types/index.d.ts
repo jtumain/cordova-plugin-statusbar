@@ -45,6 +45,11 @@ interface StatusBar {
     styleBlackOpaque(): void;
 
     /**
+     * Dark text.
+     */
+    styleDarkContent(): void;
+
+    /**
     * On iOS 7, when you set StatusBar.statusBarOverlaysWebView to false,
     * you can set the background color of the statusbar by color name.
     *
